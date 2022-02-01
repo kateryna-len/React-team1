@@ -2,6 +2,8 @@ import React from 'react'
 import NavBar from './Navbar'
 import '../../style/Header.css'
 
+
+
 function Header(){
   return (
     <div>
