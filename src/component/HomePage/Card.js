@@ -6,7 +6,7 @@ export default function Card({item}) {
         <div className='single-card'>
             <img src={item.image} width='200px' height='250px' />
             <h3>{item.title}</h3>
-            <h4>{item.author}</h4>
+            <p>{item.author}</p>
         </div>
     )
 }

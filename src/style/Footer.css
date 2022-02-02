@@ -20,7 +20,7 @@ span {
 	color: grey;
 }
 .icon {
-	padding-left: 130px;
+	padding-left: 120px;
 	color: black;
 }
 .icon-awe {
@@ -29,4 +29,17 @@ span {
 }
 .icon-awe p {
 	margin-right: 10px;
+}
+
+.icon-fa {
+	color: darkblue;
+}
+.icon-tw {
+	color: rgb(29, 85, 158);
+}
+.icon-ta {
+	color: rgb(139, 21, 0);
+}
+.icon-te {
+	color: rgb(119, 205, 255);
 }

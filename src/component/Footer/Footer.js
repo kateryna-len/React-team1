@@ -3,6 +3,7 @@ import FooterContact from './FooterContract'
 import Iconfooter from './Iconfooter'
 import '../../style/Footer.css'
 
+
 function Footer(){
   return(
     <div>

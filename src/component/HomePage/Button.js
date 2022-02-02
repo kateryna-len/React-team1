@@ -3,7 +3,7 @@ import '../../style/home-stylesheet/Cards.css'
 export default function Button(){
     return(
         <div>
-            <button className='btn' type='button'>View more</button>
+            <button className='btn' type='button'>Переглянути</button>
         </div>
     )
 };

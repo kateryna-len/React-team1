@@ -7,10 +7,10 @@ import { BsTelegram } from "react-icons/bs";
 function Iconfooter(){
   return (
 <div className='icon-awe'>
-      <p> <FaFacebook/></p> 
-      <p> <FaTwitter/></p>
-      <p> <FaXbox/></p>
-      <p> <BsTelegram/></p>
+      <p className='icon-fa'> <FaFacebook/></p> 
+      <p className='icon-tw'> <FaTwitter/></p>
+      <p className='icon-ta'> <FaXbox/></p>
+      <p className='icon-te'> <BsTelegram/></p>
     </div>
 
   )
