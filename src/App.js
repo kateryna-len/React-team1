@@ -19,12 +19,12 @@ function App() {
         <Route path='/catalog'  element={<Catalog/>} />
         <Route path='/cart' element={<Cart/>}/>
       </Routes>
-      </div>
-      <div>
-        <Footer/>
+          <div className='footer-content'>
+              <Footer/>
+          </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default App;
