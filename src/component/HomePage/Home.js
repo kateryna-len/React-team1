@@ -1,9 +1,12 @@
 import React from 'react'
+import Article from "./Article";
+import Cards from "./Cards";
 
 function Home(){
   return(
     <div>
-home
+        <Article/>
+        <Cards/>
     </div>
   )
 }
