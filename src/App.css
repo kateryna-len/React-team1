@@ -16,3 +16,8 @@
 .footer-content {
 	margin-top: 15%;
 }
+
+.cart,
+.catalog {
+	min-height: 400px;
+}

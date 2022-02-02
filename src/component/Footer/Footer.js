@@ -6,7 +6,7 @@ import '../../style/Footer.css'
 
 function Footer(){
   return(
-    <div>
+    <div className='footer'>
 <div className='footer-main'>
       <div>
         <FooterContact/>
