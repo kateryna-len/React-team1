@@ -1,4 +1,14 @@
-.single-card-catalog{
+.single-card-catalog {
     margin: 0 auto;
+}
 
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-catalog {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
 }
