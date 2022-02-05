@@ -1,5 +1,6 @@
 import React from 'react'
 import Filterbox from './Filterbox'
+import CatalogCards from './CatalogCards'
 
 function Catalog(){
   return(
@@ -7,7 +8,9 @@ function Catalog(){
       <div>
         <Filterbox/>
       </div>
-      <div>Main contatn mini box</div>
+      <div>
+          <CatalogCards/>
+      </div>
     </div>
   )
 }

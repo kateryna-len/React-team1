@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9022719-3218-4089-9841-3cda4b96a081" name="Changes" comment="home page done" />
+    <list default="true" id="c9022719-3218-4089-9841-3cda4b96a081" name="Changes" comment="home page done j">
+      <change afterPath="$PROJECT_DIR$/src/component/Catalog/CatalogCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Catalog/CatalogCards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/catalog/CatalogCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/catalog/CatalogCards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Catalog/Catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Catalog/Catalog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/HomePage/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/HomePage/Cards.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -25,16 +33,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="catalog-main" />
+                    <option name="lastUsedInstant" value="1644062682" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="double" />
                     <option name="lastUsedInstant" value="1643800435" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1643798911" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="demo" />
-                    <option name="lastUsedInstant" value="1643724234" />
                   </RecentBranch>
                 </list>
               </option>

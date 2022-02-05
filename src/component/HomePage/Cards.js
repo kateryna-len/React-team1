@@ -9,7 +9,7 @@ export default function Cards(){
         <div className='cards-container'>
             <div className='cards'>
                 {
-                    books.map(value => <Card key={value.id} item={value}/>)
+                    books.slice(0,3).map(value => <Card key={value.id} item={value}/>)
                 }
             </div>
             <div className='button-container'>
