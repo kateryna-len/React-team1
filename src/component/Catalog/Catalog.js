@@ -1,9 +1,13 @@
 import React from 'react'
+import Filterbox from './Filterbox'
 
 function Catalog(){
   return(
-    <div className='catalog'>
-catalog
+    <div className='catalog-main'> 
+      <div>
+        <Filterbox/>
+      </div>
+      <div>Main contatn mini box</div>
     </div>
   )
 }
