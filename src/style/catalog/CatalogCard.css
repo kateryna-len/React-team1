@@ -1,14 +1,49 @@
 .single-card-catalog {
-    margin: 0 auto;
+	margin: 0 auto;
+	padding: 30px 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: -2px 3px 29px -9px rgba(0, 0, 0, 0.2) inset;
+	-moz-box-shadow: -2px 3px 29px -9px rgba(0, 0, 0, 0.2) inset;
+	box-shadow: -2px 3px 29px -9px rgba(0, 0, 0, 0.2) inset;
 }
 
-.price {
-    display: flex;
-    justify-content: space-between;
+.author {
+	color: grey;
+	margin: 3px 0 30px 0;
+}
+
+.catalog-box {
+	display: flex;
+	justify-content: space-between;
+}
+.cod {
+	font-size: 11px;
+	color: grey;
+	padding-bottom: 10px;
+}
+.icon {
+	color: grey;
+	font-size: 15px;
+}
+.icon:hover {
+	color: red;
 }
 
 .btn-catalog {
-    margin-top: 5%;
-    display: flex;
-    justify-content: center;
+	margin-top: 10%;
+	display: flex;
+	justify-content: center;
+}
+
+.catalog-btn {
+	width: 140px;
+	height: 50px;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	transition-duration: 0.4s;
+}
+.catalog-btn:hover {
+	background-color: #000000;
+	color: rgb(250, 242, 242);
 }

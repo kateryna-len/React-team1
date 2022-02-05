@@ -25,6 +25,7 @@
 	border: 2px solid #000000;
 	padding: 10px 30px;
 	border-radius: 7px;
+	transition-duration: 0.4s;
 }
 
 .filter-button:hover {
