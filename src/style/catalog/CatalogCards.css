@@ -1,9 +1,10 @@
-.catalog-cards-container{
-    width: 90%;
-    margin: 0 auto;
+.catalog-cards-container {
+	width: 90%;
+	margin: 0 auto;
 }
-.cards{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10%;
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 10%;
 }
