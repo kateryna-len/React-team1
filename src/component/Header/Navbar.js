@@ -14,7 +14,7 @@ function NavBar(){
   }
 
   return(
-    <dic>
+    <div>
       <div className='navbar' >
         <Link className='link' onClick={handlenot} to='/'>Home</Link>
         <Link className='link' onClick={handlechange}  to='/catalog'>Catalog</Link>
@@ -22,7 +22,7 @@ function NavBar(){
           {visability && <Researchbox />}
         
       </div>
-    </dic>
+    </div>
   )
 }
 
