@@ -20,7 +20,7 @@ export default function CatalogCard({item}) {
                 <p><strong>Ціна:</strong></p><p>{item.price}{'грн'}</p>
             </div>
             <div className='btn-catalog'>
-                <CatalogBtn/>
+                <CatalogBtn item = {item}/>
             </div>
         </div>
     )

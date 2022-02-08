@@ -1,0 +1,54 @@
+.blog-details-main {
+}
+
+.blog-details-content {
+	padding-top: 40px;
+}
+.blog-details-pagebox {
+	display: flex;
+	align-items: center;
+}
+
+.text-descr {
+	margin-left: 20px;
+	text-align: justify;
+}
+
+.text-descr h2 {
+	padding-bottom: 20px;
+}
+.price-btn {
+	display: flex;
+	margin-top: 10px;
+	justify-content: space-between;
+}
+
+.price-btn p {
+	font-size: 25px;
+	font-weight: 700;
+}
+.price-btn button {
+	border: 2px solid #000000;
+	padding: 10px 30px;
+	border-radius: 7px;
+	transition-duration: 0.4s;
+	margin-right: 30px;
+}
+.btn-1{
+  background-color: white;
+	color: black;
+}
+.btn-1:hover {
+	background-color: black;
+	color: white;
+}
+
+.btn-2 {
+  background-color: black;
+  color: white;
+}
+
+.btn-2:hover{
+  background-color: white;
+	color: black;
+}

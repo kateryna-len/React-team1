@@ -1,9 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
-function CatalogBtn(){
+function CatalogBtn({item}){
   return(
     <div>
-    <button className='catalog-btn' type='button'>Купити</button>
+      <Link to={`/catalog/${item.id}`}>
+       <button className='catalog-btn' type='button'>Купити</button> 
+      </Link>
+    
     </div>
   )
 }
