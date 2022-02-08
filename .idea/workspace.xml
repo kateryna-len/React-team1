@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c9022719-3218-4089-9841-3cda4b96a081" name="Changes" comment="some fix main and created CatalogCard,CatalogCards components and css files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Catalog/CatalogCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Catalog/CatalogCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Catalog/CatalogCards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Catalog/CatalogCards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/catalog/CatalogCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/catalog/CatalogCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/HomePage/data/BooksData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/HomePage/data/BooksData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
