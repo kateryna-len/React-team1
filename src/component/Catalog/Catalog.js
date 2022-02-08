@@ -9,7 +9,7 @@ function Catalog(){
         <Filterbox/>
       </div>
       <div>
-          <CatalogCards/>
+          <CatalogCards />
       </div>
     </div>
   )
