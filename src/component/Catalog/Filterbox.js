@@ -6,28 +6,10 @@ function Filterbox(){
     <div>
     <div className='filter-box'>
       <div className='filter-left'>
-      
-      <select  className='filter-select'>
-  <option value="filter1" selected disabled hidden>Filter 1</option>
-  <option value="1" >1</option> 
-   <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option> 
-</select>
-<select className='filter-select' name="filter2" >
-  <option value="" selected disabled hidden>Filter 2</option>
-  <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-</select>
-<select className='filter-select' name="filter3" id="cars">
-  <option value="" selected disabled hidden>Filter 3</option>
-  <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-</select>
+      <button className='filter-button1'>НОВИНКИ</button>
+      <button className='filter-button1'>ДИТЯЧА ЛІТЕРАТУРА</button>
+      <button className='filter-button1'>ЛІТЕРАТУРА ДЛЯ ДОРОСЛИХ</button>
+      <button className='filter-button1'>ВІД НАЙМЕНШОЇ ЦІНИ</button>
       </div>
       <div className='filter-right'>
         <Filterbtn/>
