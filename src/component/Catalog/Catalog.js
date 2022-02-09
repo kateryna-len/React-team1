@@ -5,6 +5,7 @@ import CatalogCards from './CatalogCards'
 function Catalog(){
   return(
     <div className='catalog-main'> 
+    <div></div>
       <div>
         <Filterbox/>
       </div>
