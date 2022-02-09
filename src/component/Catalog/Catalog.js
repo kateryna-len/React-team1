@@ -5,14 +5,21 @@ import { books } from '../HomePage/data/BooksData'
 
 
 function Catalog(){
+  const [data, setData] = useState(books)
+  const filterChild = (child)=>{
+    const result = books.filter((items)=>{
+      return items.gender === child
+    })
+    setData(result)
+  }
   return(
     <div className='catalog-main'> 
     <div></div>
       <div>
-        <Filterbox  />
+        <Filterbox   filterChild={filterChild} />
       </div>
       <div>
-          <CatalogCards />
+          <CatalogCards data={data} />
       </div>
     </div>
   )
