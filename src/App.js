@@ -25,7 +25,6 @@ function App() {
                 <div className='content'>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        {/* <Route path={ id ? '/catalog/' : '/catalog/:id'}  element={<Catalog/>} /> */}
         <Route path='/catalog' element={<Catalog />} />
         <Route path='/catalog/:id' element={<BlogDetails/>} />
         <Route path='/cart' element={<Cart/>}/>
