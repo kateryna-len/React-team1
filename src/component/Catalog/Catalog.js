@@ -9,6 +9,7 @@ function Catalog({searchValue}){
         <Filterbox/>
       </div>
       <div>
+
           <CatalogCards searchValue={searchValue}/>
       </div>
     </div>
