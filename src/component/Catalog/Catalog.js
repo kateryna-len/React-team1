@@ -2,14 +2,15 @@ import React from 'react'
 import Filterbox from './Filterbox'
 import CatalogCards from './CatalogCards'
 
-function Catalog(){
+function Catalog({searchValue}){
   return(
     <div className='catalog-main'> 
       <div>
         <Filterbox/>
       </div>
       <div>
-          <CatalogCards />
+
+          <CatalogCards searchValue={searchValue}/>
       </div>
     </div>
   )

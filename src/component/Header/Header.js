@@ -4,7 +4,6 @@ import '../../style/Header.css'
 import Researchbox from './Researchbox'
 
 
-
 function Header(){
   return (
     <div>

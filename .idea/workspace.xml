@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9022719-3218-4089-9841-3cda4b96a081" name="Changes" comment="some fix main and created CatalogCard,CatalogCards components and css files">
+      <change afterPath="$PROJECT_DIR$/src/BooksContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/HomePage/data/BooksData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/HomePage/data/BooksData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Catalog/Catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Catalog/Catalog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Catalog/CatalogCards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Catalog/CatalogCards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Header/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Header/Researchbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/Researchbox.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -28,16 +36,20 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="some-solutions" />
+                    <option name="lastUsedInstant" value="1644326713" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1644324683" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="catalog-main" />
                     <option name="lastUsedInstant" value="1644062682" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="double" />
                     <option name="lastUsedInstant" value="1643800435" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1643798911" />
                   </RecentBranch>
                 </list>
               </option>
@@ -64,7 +76,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/component/HomePage" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -131,5 +143,9 @@
     <MESSAGE value="home page done" />
     <MESSAGE value="some fix main and created CatalogCard,CatalogCards components and css files" />
     <option name="LAST_COMMIT_MESSAGE" value="some fix main and created CatalogCard,CatalogCards components and css files" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

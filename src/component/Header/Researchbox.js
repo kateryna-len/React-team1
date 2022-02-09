@@ -1,13 +1,18 @@
-import React from 'react'
-import { FaSistrix } from "react-icons/fa";
+import React, {useContext} from 'react'
+import BooksContext from '../../BooksContext'
 
+function Researchbox() {
+    const {setSearchedBook} = useContext(BooksContext);
 
-function Researchbox(){
-  return (
-    <div className='research-box'>
-      <input className='research' type='text' placeholder='Пошук...'  />
-    </div>
-  )
+    return (
+        <div className='research-box'>
+            <input className='research' type='text' placeholder='Пошук...'
+                   onChange={(event) => {
+                       setSearchedBook(event.target.value)
+                   }
+            }/>
+        </div>
+    )
 }
 
 export default Researchbox;
