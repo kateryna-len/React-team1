@@ -9,7 +9,7 @@ function Catalog(){
     <div className='catalog-main'> 
     <div></div>
       <div>
-        <Filterbox filterResalt={filterResalt} />
+        <Filterbox  />
       </div>
       <div>
           <CatalogCards />
