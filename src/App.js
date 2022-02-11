@@ -10,6 +10,15 @@ import BlogDetails from './component/Catalog/BlogDetails';
 import BooksContext from './BooksContext';
 
 function App() {
+    // const [backData,setBackData] =useState([{}])
+    // useEffect(()=>{
+    //     fetch('/api')
+    //                 .then(value => value.json())
+    //                 .then(value => {
+    //                     console.log(value)
+    //                 }
+    //         )
+    // },[])
     const [searchedBook, setSearchedBook] = useState('');
     const providerValue = useMemo(
         () => ({ searchedBook, setSearchedBook }),
