@@ -5,7 +5,7 @@ function CatalogBtn({item}){
   return(
     <div>
       <Link to={`/catalog/${item.id}`}>
-       <button className='catalog-btn' type='button'>Купити</button> 
+       <button className='catalog-btn' type='button'>Buy</button> 
       </Link>
     
     </div>

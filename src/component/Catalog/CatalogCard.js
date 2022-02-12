@@ -11,19 +11,19 @@ export default function CatalogCard({item}) {
     return (
 
             <div className='single-card-catalog'>
-            {item.top === 'Новинка' ?<div className='hop'><p>{item.top} </p></div>  : <div className='hoq'>{item.top}</div> }
+            {item.top === 'New' ?<div className='hop'><p>{item.top} </p></div>  : <div className='hoq'>{item.top}</div> }
             
             <img src={item.image} width='200px' height='250px'/>
             <div className='catalog-box'>
-                <p className='cod'>Код: {item.cod}</p><p className='icon'><BiHeart/></p>
+                <p className='cod'>Cod: {item.cod}</p><p className='icon'><BiHeart/></p>
             </div>
             <div>
-            <p className='year'>Рік: {item.year}</p>
+            <p className='year'>Year: {item.year}</p>
             </div>
             <h3>{item.title}</h3>
             <p className='author'>{item.author}</p>
             <div className='catalog-box'>
-                <p><strong>Ціна:</strong></p><p>{item.price}{'грн'}</p>
+                <p><strong>Price:</strong></p><p>{item.price}</p>
             </div>
             <div className='btn-catalog'>
                 <CatalogBtn item = {item}/>

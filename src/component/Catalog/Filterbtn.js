@@ -3,7 +3,7 @@ import React from 'react'
 function Filterbtn(){
   return(
     <div>
-    <button className='filter-button'>Застосувати</button>
+    <button className='filter-button'>Apply</button>
   </div>
   )
 }

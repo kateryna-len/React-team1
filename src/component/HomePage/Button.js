@@ -3,7 +3,7 @@ import '../../style/home-stylesheet/Cards.css'
 export default function Button({loadMore}){
     return(
         <div>
-            <button className='btn' type='button' onClick={()=>loadMore()} >Переглянути</button>
+            <button className='btn' type='button' onClick={()=>loadMore()} >View more</button>
         </div>
     )
 };

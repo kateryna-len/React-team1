@@ -6,7 +6,7 @@ function Researchbox() {
 
     return (
         <div className='research-box'>
-            <input className='research' type='text' placeholder='Пошук...'
+            <input className='research' type='text' placeholder='Research...'
                    onChange={(event) => {
                        setSearchedBook(event.target.value)
                    }

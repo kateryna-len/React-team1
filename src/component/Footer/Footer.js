@@ -16,7 +16,7 @@ function Footer(){
       </div>
       <div className='icon'><Iconfooter/></div>
     </div>
-    <span>© 2022 Всі права захищені.  </span>
+    <span>© 2022 All rights reserved.  </span>
 
     </div>
   )

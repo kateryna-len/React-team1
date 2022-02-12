@@ -9,10 +9,10 @@ export default function Article() {
             </div>
             <div className='text-content'>
                 <h1>
-                    Комплекти для програми Єпідтримка
+                Kits for the Support program
                 </h1>
                 <p>
-                Вітаємо! На нашому сайті можна розрахуватись карткою «єПідтримка»!<br/> Ми щасливі надати можливість використати ваші кошти якнайвигідніше. Комплекти на 1000 гривень вже чекають саме на вас!
+                Congratulations! On our site you can pay with the card "eSupport"!<br/> We are happy to provide you with the opportunity to use your funds to the best of your ability. Kits for 1000 hryvnias are already waiting for you!
                 </p>
             </div>
         </div>

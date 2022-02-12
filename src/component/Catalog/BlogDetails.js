@@ -26,7 +26,7 @@ function BlogDetails(){
             <div className='price-btn' >
 
               <div >
-                <p>Ціна: {item.price} грн.</p>
+                <p>Price: {item.price} </p>
               </div>
 
               <div>
