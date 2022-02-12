@@ -4,9 +4,6 @@ import { BiHeart } from "react-icons/bi";
 import CatalogBtn from "./CatalogBtn";
 
 
-
-
-
 export default function CatalogCard({item}) {
     return (
 

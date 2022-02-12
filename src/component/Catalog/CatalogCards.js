@@ -1,4 +1,4 @@
-import React, {useMemo, useState, useContext} from 'react';
+import React, {useContext} from 'react';
 import CatalogCard from './CatalogCard';
 import {books} from '../HomePage/data/BooksData';
 import '../../style/catalog/CatalogCards.css';
@@ -7,7 +7,6 @@ import BooksContext from '../../BooksContext';
 
 export default function CatalogCards({data}) {
 
-   
     const {searchedBook} = useContext(BooksContext);
 
 
