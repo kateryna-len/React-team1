@@ -1,12 +1,19 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import Card from "./Card";
-import {books} from "./data/BooksData";
 import '../../style/home-stylesheet/Cards.css';
 import Button from "./Button";
+import {getBooks} from "../../services-axios/api.service";
 
 export default function Cards(){
 
     const[noOfElement, setNoOfElement] = useState(4)
+    const [books, setBooks] = useState([]);
+
+    useEffect(() => {
+
+        getBooks().then(value => setBooks([...value.data]) )
+    }, []);
+
 
     const loadMore = ()=>{
         setNoOfElement(noOfElement + noOfElement)
