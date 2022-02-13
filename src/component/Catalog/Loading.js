@@ -1,7 +1,7 @@
 import React from 'react'
 //import '../../style/Loading.js'
 
-function Loading (prop){
+function Loading (){
   return (
     
 <div className="lds-roller">

@@ -33,7 +33,8 @@ useEffect(()=>{
         <Filterbox   filterChild={filterChild} />
       </div>
       <div>
-        {isLoading ? <CatalogCards data={data}/> : <Loading/> }
+         {isLoading ? <CatalogCards data={data}/> : <Loading/> } 
+       
           
       </div>
     </div>

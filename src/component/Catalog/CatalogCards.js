@@ -7,6 +7,7 @@ import {getBooks} from '../../services-axios/api.service'
 import Loading from './Loading';
 
 
+
 export default function CatalogCards({data, isLoading}) {
 
     const {searchedBook} = useContext(BooksContext);
@@ -17,7 +18,7 @@ export default function CatalogCards({data, isLoading}) {
 
     }, [])
 
-
+    
     const filteredBooks = books.filter(book => {
         return book.title.toLowerCase().includes(searchedBook)
             || book.author.toLowerCase().includes(searchedBook)
