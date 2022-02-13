@@ -1,12 +1,17 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { Link, useParams } from 'react-router-dom';
-import {books} from '../HomePage/data/BooksData';
 import '../../style/BlogDetails.css'
+import { getBooks } from '../../services-axios/api.service';
 
 
 function BlogDetails(){
 
   const {id} = useParams()
+  const[books, setBooks] = useState([])
+
+  useEffect(()=>{
+    getBooks().then(value=>setBooks([...value.data]))
+  }, [])
   return(
     <div className='blog-details-main'>
       

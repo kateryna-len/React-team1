@@ -6,10 +6,10 @@ function Filterbox({filterChild}){
     <div>
     <div className='filter-box'>
       <div className='filter-left'>
-      <button className='filter-button1' onClick={()=>filterChild('New')}>НОВИНКИ</button>
-      <button className='filter-button1' onClick={()=>filterChild('child')} >ДИТЯЧА ЛІТЕРАТУРА</button>
-      <button className='filter-button1' onClick={()=>filterChild('adult')}>ЛІТЕРАТУРА ДЛЯ ДОРОСЛИХ</button>
-      <button className='filter-button1' onClick={()=>filterChild('adult','child',  )}>ВІД НАЙМЕНШОЇ ЦІНИ</button>
+      <button className='filter-button1' onClick={()=>filterChild('New')}>NEW</button>
+      <button className='filter-button1' onClick={()=>filterChild('child')} >CHILDREN'S LITERATURE</button>
+      <button className='filter-button1' onClick={()=>filterChild('adult')}>ADULT LITERATURE</button>
+      <button className='filter-button1' onClick={()=>filterChild( )}>ALL BOOKS</button>
       </div>
       <div className='filter-right'>
         <Filterbtn/>
